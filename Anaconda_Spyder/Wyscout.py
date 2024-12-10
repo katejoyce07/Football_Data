@@ -13,7 +13,7 @@ import json
 
 
 # Update the path to match your local file structure
-path = os.path.join(r"C:\Users\KateJoyce\Desktop\Wyscout\Matches", "matches_England.json")
+path = os.path.join(r"~Desktop\Wyscout\Matches", "matches_England.json") 
 
 # Open and load the JSON file
 with open(path, 'r') as f:
@@ -28,7 +28,7 @@ df_matches.info()
 
 
 # Update the path to match your local file structure
-path = os.path.join(r"C:\Users\KateJoyce\Desktop\Wyscout", "players.json")
+path = os.path.join(r"~\Desktop\Wyscout", "players.json")
 
 # Open and load the JSON file
 with open(path, 'r') as f:
@@ -44,7 +44,7 @@ df_players.info()
 
 # Define the path to the events file (assuming there's only one events file for England)
 file_name = 'events_England.json'  # Adjust this based on the actual filename
-path = os.path.join(r"C:\Users\KateJoyce\Desktop\Wyscout\Events", file_name)
+path = os.path.join(r"~\Desktop\Wyscout\Events", file_name)
 
 # Check if the file exists
 if os.path.exists(path):
